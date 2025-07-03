@@ -1,10 +1,15 @@
+body {
+    background-color: #0d1b1e;
+
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
 .logo {
     width: 100px;
     height: 100px;
-}
-
-main {
-    background-color: #0d1b1e;
 }
 
 header {
@@ -16,9 +21,13 @@ header a {
     text-decoration: none;
 }
 
+/*thneed box */
+.first {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .thneed_box {
     background-color: #96c5f7;
-
 }
 
 #thneed_title {
@@ -34,6 +43,34 @@ header a {
     text-decoration: none;
 }
 
+/* car box */
+
 .car {
-    max-width: 1600px;
+ width: 100%;
 }
+
+/* oil and fashoon box */
+
+.third {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+.mid_box {
+    background-color: #F4AFB4;
+    width: 500px;
+    color: #0d1b1e;
+}
+
+.oil {
+    width: 200px;
+    grid-column: 1 / 1;
+}
+
+.fashion {
+    width: 200px;
+    grid-column: 1 / 3;
+}
+
