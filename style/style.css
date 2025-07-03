@@ -12,5 +12,28 @@ header {
 }
 
 header a {
-    color: #fff076
+    color: #fff076;
+    text-decoration: none;
+}
+
+.thneed_box {
+    background-color: #96c5f7;
+
+}
+
+#thneed_title {
+    color: #0d1b1e;
+}
+
+#thneed_paragraph {
+    color: #0d1b1e;
+}
+
+.thneed_box a {
+    color: #0d1b1e;
+    text-decoration: none;
+}
+
+.car {
+    max-width: 1600px;
 }
