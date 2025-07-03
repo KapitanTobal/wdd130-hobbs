@@ -6,3 +6,11 @@
 main {
     background-color: #0d1b1e;
 }
+
+header {
+    background-color: #0d1b1e;
+}
+
+header a {
+    color: #fff076
+}
