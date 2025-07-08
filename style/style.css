@@ -29,7 +29,12 @@ nav {
     height: 75px;
 }
 
+
+
+/* MAIN CONTENT */
+
 /*thneed box */
+/* William */
 .first {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -57,7 +62,11 @@ nav {
  width: 100%;
 }
 
-/* oil and fashoon box */
+
+
+
+/* oil and fashoon box  */
+/* Aaron */
 
 .third {
     display: grid;
