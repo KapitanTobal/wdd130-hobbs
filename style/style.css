@@ -58,11 +58,17 @@ nav {
 
 /* car box */
 
-.car {
- width: 100%;
+.second {
+    background-image: url(../images/car.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
+.car_box {
+    color: #96C5F7;
+    width: 600px;
 
+}
 
 
 /* oil and fashoon box  */
