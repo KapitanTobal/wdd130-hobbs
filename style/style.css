@@ -87,7 +87,7 @@ nav {
 }
 
 .thneed {
-    width: 800px;
+    width: 100%;
 }
 
 /* car box */
@@ -123,19 +123,14 @@ nav {
 .third {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
 }
 
 .mid_box {
     background-color: #F4AFB4;
-    width: 500px;
+    width: 75%;
     color: #0d1b1e;
-}
-
-.oil {
-    width: 200px;
-}
-
-.fashion {
-    width: 200px;
+    border-radius: 10px;
+    margin: 50px auto;
 }
 
