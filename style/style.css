@@ -154,6 +154,17 @@ nav {
     "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.third img{
+    width: 100%;
+    height: 100%
+}
+.mid_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
 footer {
     background-color: #17282c;
     height: 75px;
@@ -182,17 +193,3 @@ footer img {
     width: 40px;
 }
 
-.third {
-    display: block;
-    margin: 10px;
-    height: 200px;}
-.third img{
-    width: 30%;
-    height: 30%
-}
-.mid_box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem; /* space between box and buttons */
-}
